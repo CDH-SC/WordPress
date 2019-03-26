@@ -10,16 +10,16 @@ Table of Contents
 # Getting started
 To create a working network of containers hosting wordpress sites, the host machine must have the following software installed.
 
-## Nginx
+### Nginx
 Used to proxy
 
-## Certbot
+### Certbot
 Used to generate certifications
 
-## Docker
+### Docker
 Docker daemon for running the docker containers
 
-## Docker-Compose
+### Docker-Compose
 An orchestraion tool for starting up the front end and back end containers (the script)
 
 
