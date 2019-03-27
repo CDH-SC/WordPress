@@ -1,4 +1,5 @@
 # WordPress
+---
 This is a repository documenting the steps to create a network of Dockerized Wordpress instances on a single virtual machine.
 It will walk you through each of the required softwares, files, and DNS configurations to get it working.
 We will be using Google Cloud Platform to host our VM and configure the DNS settings. 
@@ -9,6 +10,8 @@ Table of Contents
 * [Deployment](#Deployment)
 * [Is It Working?](#Testing-and-troubleshooting)
 * [Credits](#Credits)
+
+
 
 # Getting started
 ---
@@ -44,6 +47,8 @@ An orchestraion tool for starting up the front end and back end containers (the 
 How to install
 
 Images of the file and its location
+
+
 
 # DNS
 ---
