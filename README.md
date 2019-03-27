@@ -37,11 +37,13 @@ The [Google Cloud Console](<https://console.cloud.google.com/>) hosts a variety 
 
 ![alt text](https://github.com/CDH-SC/WordPress/blob/master/README_images/ComputeEngine.png "ComputeEngine")
 
+Click the ![create instance](https://github.com/CDH-SC/WordPress/blob/master/README_images/createInstance.png "create Instance button") button and configure the machine as needed. These are the configurations we used. 
 
+![alt text](https://github.com/CDH-SC/WordPress/blob/master/README_images/vmConfig.png "Configs")
 
+Click the create vm, and make a note of the machines IP. The IP will be used when configuring the Cloud DNS records.
 
-
-
+![alt text](https://github.com/CDH-SC/WordPress/blob/master/README_images/vmIP.png "Configs")
 
 
 
