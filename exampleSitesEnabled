@@ -8,7 +8,6 @@
 
 upstream site10 {
         # this is defined in the docker-compose yaml file
-        
         server 127.0.0.1:8010;
         # machine:container
 }
