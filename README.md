@@ -33,7 +33,9 @@ To create a working network of containers hosting wordpress sites, the host mach
 ---
 
 ## **_Google Cloud Console_**
-The [Google Cloud Console](<https://console.cloud.google.com/>) hosts a variety of tools, we will be using *VM instances* under the *Compute Engine* tab ![alt text](https://github.com/CDH-SC/WordPress/blob/master/README_images/ComputeEngine.png "Logo Title Text 1")
+The [Google Cloud Console](<https://console.cloud.google.com/>) hosts a variety of tools, we will be using *VM instances* under the *Compute Engine* tab 
+
+![alt text](https://github.com/CDH-SC/WordPress/blob/master/README_images/ComputeEngine.png "ComputeEngine")
 
 ## **_Google Cloud DNS_**
 
