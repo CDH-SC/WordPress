@@ -28,7 +28,7 @@ To create a working network of containers hosting wordpress sites, the host mach
 
 
 ## **_Nginx_**
-Used on the machine to manage connections. By using the exampleSitesEnabled file, you can see that we are able to
+Used on the machine to manage connections. Referencing the the [exampleSitesEnabled](https://github.com/CDH-SC/WordPress/blob/master/exampleSitesEnabled) file, you can see that we are able to
 connect site10.wordpress.cdhsc.org to port 8010, which is defined to be container 10.
 
 How to install
