@@ -37,10 +37,18 @@ The [Google Cloud Console](<https://console.cloud.google.com/>) hosts a variety 
 
 ![alt text](https://github.com/CDH-SC/WordPress/blob/master/README_images/ComputeEngine.png "ComputeEngine")
 
+
+
+
+
+
+
+
+
 ## **_Google Cloud DNS_**
 
 ## **_Nginx_**
-Used on the machine to manage connections. Referencing the the [exampleSitesEnabled](https://github.com/CDH-SC/WordPress/blob/master/exampleSitesEnabled) file, you can see that we are able to route site10.wordpress.cdhsc.org to the container listening on port 8010, which is defined to be container 10.
+Used on the machine to manage connections. Referencing the [exampleSitesEnabled](https://github.com/CDH-SC/WordPress/blob/master/exampleSitesEnabled) file, you can see that we are able to route site10.wordpress.cdhsc.org to the container listening on port 8010, which is defined to be container 10.
 
 How to install
 
