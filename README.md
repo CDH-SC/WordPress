@@ -49,6 +49,8 @@ Click the create vm, and make a note of the machines IP. The IP will be used whe
 
 ## **_Google Cloud DNS_**
 
+Cloud DNS is where all of our routing records will be located.
+
 ## **_Nginx_**
 Used on the machine to manage connections. Referencing the [exampleSitesEnabled](https://github.com/CDH-SC/WordPress/blob/master/exampleSitesEnabled) file, you can see that we are able to route site10.wordpress.cdhsc.org to the container listening on port 8010, which is defined to be container 10.
 
