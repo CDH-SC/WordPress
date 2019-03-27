@@ -1,8 +1,8 @@
 # WordPress
 ---
+
 This is a repository documenting the steps to create a network of Dockerized *Wordpress* instances on a single virtual machine. However, by replacing the docker-compose.yml file, many other containerized content managment systems can be substituted.  
-  
-  
+
 It will walk you through each of the required softwares, files, and DNS configurations to get it working.
 We will be using Google Cloud Platform to host our VM and configure the DNS settings. 
 
@@ -12,8 +12,6 @@ Table of Contents
 * [Deployment](#Deployment)
 * [Testing and troubleshooting](#Testing-and-troubleshooting)
 * [Credits](#Credits)
-
-
 
 # Getting started
 ---
@@ -28,12 +26,14 @@ To create a working network of containers hosting wordpress sites, the host mach
 | [Docker CE](https://docs.docker.com/v17.12/install/)  | daemon for running containers       | Installed on VM   |
 | [Docker-compose](https://docs.docker.com/compose/)    | orchestraion of multiple Containers | Installed on VM   |
 
+  
 
 # Configurations
+
 ---
 
 ## **_Google Cloud Console_**
-The [Google Cloud Console] host a variety of tools and 
+The [Google Cloud Console](<https://console.cloud.google.com/>) hosts a variety of tools, we will be using *VM instances* under the *Compute Engine* tab ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## **_Google Cloud DNS_**
 
@@ -66,8 +66,8 @@ An orchestraion tool for starting up the front end and back end containers (the 
 How to install
 
 Images of the file and its location
-  
-  
+
+
 # Testing and troubleshooting
 ---
 Testing the configure
