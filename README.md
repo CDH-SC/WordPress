@@ -33,6 +33,7 @@ To create a working network of containers hosting wordpress sites, the host mach
 ---
 
 ## **_Google Cloud Console_**
+The [Google Cloud Console] host a variety of tools and 
 
 ## **_Google Cloud DNS_**
 
