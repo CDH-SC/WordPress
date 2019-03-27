@@ -11,10 +11,10 @@ Table of Contents
 * [Credits](#Credits)
 
 # Getting started
+---
 To create a working network of containers hosting wordpress sites, the host machine must have the following software installed.
 
-### **_Nginx_**
----
+## **_Nginx_**
 Used on the machine to manage connections. By using the exampleSitesEnabled file, you can see that we are able to
 connect site10.wordpress.cdhsc.org to port 8010, which is defined to be container 10.
 
@@ -22,8 +22,7 @@ How to install
 
 Images of the file and its location
 
-### **_Certbot_**
----
+## **_Certbot_**
 Used to generate ssl certification settings, located in the same sitesEnabled file that was previously referenced.
 It uses the same certifcate for all website, located in /etc/letsencrypt/live/site1.wordpress.cdhsc.org/privkey.pem
 
@@ -32,16 +31,14 @@ How to install
 
 Images of the file and its location
 
-### **_Docker_**
----
+## **_Docker_**
 Docker daemon for running the docker containers
 
 How to install
 
 commands to see the version/testing if it was correctly installed
 
-### **_Docker-Compose_**
----
+## **_Docker-Compose_**
 An orchestraion tool for starting up the front end and back end containers (the script)
 
 How to install
@@ -57,9 +54,11 @@ Images of the DNS configs in GCP
 
 
 # Testing and troubleshooting
+---
 Testing the configure
 
 
 
 # Credits
+---
 Credits to the people that worked together to get this tech stack working
